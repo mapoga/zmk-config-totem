@@ -95,10 +95,10 @@
 
         Nav {
             bindings = <
-       &none   &none         &none         &none   &none    &kp K_REDO  &kp LC(V)      &kp LC(C)     &kp LC(X)  &kp LC(Z)
-       &none   &none         &none         &none   &none    &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp CAPSLOCK
-&none  &trans  &kp NUMBER_1  &kp NUMBER_2  &none   &none    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp INSERT    &none
-                             &none         &trans  &none    &trans      &trans         &trans
+       &none   &none         &none         &none         &none    &kp K_REDO  &kp LC(V)      &kp LC(C)     &kp LC(X)  &kp LC(Z)
+       &none   &none         &none         &none         &none    &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp CAPSLOCK
+&none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp INSERT    &none
+                             &none         &trans        &none    &trans      &trans         &trans
             >;
         };
 
@@ -122,19 +122,19 @@
 
         Num {
             bindings = <
-       &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &none  &none   &none  &none  &none
-       &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &none  &none   &none  &none  &none
-&none  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &none  &none   &none  &none  &none  &none
-                          &kp DOT  &kp N0  &kp MINUS    &none  &trans  &none
+       &kp STAR  &kp N7  &kp N8  &kp N9     &kp BACKSLASH    &none  &none   &none      &none       &none
+       &kp N0    &kp N4  &kp N5  &kp N6     &kp EQUAL        &none  &none   &none      &none       &none
+&none  &kp PLUS  &kp N1  &kp N2  &kp N3     &kp PIPE         &none  &none   &kp COMMA  &kp PERIOD  &none  &none
+                         &none   &kp UNDER  &kp MINUS        &none  &trans  &none
             >;
         };
 
         Sym {
             bindings = <
-       &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &none   &none  &none  &none  &none
-       &kp COLON       &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS           &none   &none  &none  &none  &none
-&none  &kp TILDE       &kp EXCL       &kp AT                &kp HASH               &kp PIPE           &none   &none  &none  &none  &none  &none
-                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &none  &none
+       &kp TILDE  &kp GRAVE  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none   &none  &none  &none  &none
+       &kp AT     &kp HASH   &kp EXCL       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none   &none  &none  &none  &none
+&none  &none      &kp CARET  &kp DOLLAR     &kp LEFT_BRACE        &kp RIGHT_BRACE          &none   &none  &none  &none  &none  &none
+                             &none          &kp COLON             &kp SEMICOLON            &trans  &none  &none
             >;
         };
 
