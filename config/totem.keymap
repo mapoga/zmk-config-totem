@@ -11,7 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3000
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 400
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 60
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
