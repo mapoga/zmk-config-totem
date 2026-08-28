@@ -10,8 +10,8 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 800
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 400
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-    time-to-max-speed-ms = <1600>;
+    time-to-max-speed-ms = <1200>;
     acceleration-exponent = <1>;
     delay-ms = <0>;
 };
@@ -27,7 +27,7 @@
 &msc {
     delay-ms = <0>;
     time-to-max-speed-ms = <6000>;
-    acceleration-exponent = <1>;
+    acceleration-exponent = <0>;
 };
 
 / {
